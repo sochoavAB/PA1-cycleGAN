@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+data
 # Distribution / packaging
 .Python
 build/
@@ -158,3 +158,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Ignorar todo en la carpeta models
+models/*
+
+# Excluir explícitamente el archivo que quieres rastrear
+!models/A2B/netG_A2B_epoch_100.pth
+
+# Asegúrate de incluir el directorio models/A2B
+!models/A2B/

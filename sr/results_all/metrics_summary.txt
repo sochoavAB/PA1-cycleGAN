@@ -1,0 +1,21 @@
+Overall Metrics Summary:
+
+Input Metrics:
+  SSIM - Mean: 0.5206, STD: 0.2230, Max: 0.9286, Min: 0.1704
+  PSNR - Mean: 30.95, STD: 3.05, Max: 38.49, Min: 27.55
+
+Model Metrics:
+  SSIM - Mean: 0.5696, STD: 0.2011, Max: 0.9388, Min: 0.2702
+  PSNR - Mean: 31.38, STD: 3.15, Max: 39.19, Min: 28.09
+
+Bicubic Metrics:
+  SSIM - Mean: 0.5206, STD: 0.2230, Max: 0.9286, Min: 0.1704
+  PSNR - Mean: 30.95, STD: 3.05, Max: 38.49, Min: 27.55
+
+Lanczos Metrics:
+  SSIM - Mean: 0.5206, STD: 0.2230, Max: 0.9286, Min: 0.1704
+  PSNR - Mean: 30.95, STD: 3.05, Max: 38.49, Min: 27.55
+
+SRCNN Metrics:
+  SSIM - Mean: 0.0378, STD: 0.0242, Max: 0.0901, Min: -0.0007
+  PSNR - Mean: 30.13, STD: 1.87, Max: 34.17, Min: 27.88

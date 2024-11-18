@@ -1,0 +1,1394 @@
+Training Started
+==================================================
+
+Epoch 1
+Training Losses:
+Generator Loss: 3.8124
+Discriminator A Loss: 0.5158
+Discriminator B Loss: 0.4749
+
+Validation Losses:
+Generator Loss: 3.2632
+Discriminator A Loss: 0.4786
+Discriminator B Loss: 0.4294
+--------------------------------------------------
+
+Epoch 2
+Training Losses:
+Generator Loss: 3.1508
+Discriminator A Loss: 0.4316
+Discriminator B Loss: 0.4464
+
+Validation Losses:
+Generator Loss: 2.8201
+Discriminator A Loss: 0.3938
+Discriminator B Loss: 0.4000
+--------------------------------------------------
+
+Epoch 3
+Training Losses:
+Generator Loss: 3.2554
+Discriminator A Loss: 0.2596
+Discriminator B Loss: 0.4472
+
+Validation Losses:
+Generator Loss: 3.7402
+Discriminator A Loss: 0.0510
+Discriminator B Loss: 0.4223
+--------------------------------------------------
+
+Epoch 4
+Training Losses:
+Generator Loss: 3.2561
+Discriminator A Loss: 0.1194
+Discriminator B Loss: 0.4587
+
+Validation Losses:
+Generator Loss: 3.8609
+Discriminator A Loss: 0.2463
+Discriminator B Loss: 0.5233
+--------------------------------------------------
+
+Epoch 5
+Training Losses:
+Generator Loss: 3.3153
+Discriminator A Loss: 0.0790
+Discriminator B Loss: 0.3848
+
+Validation Losses:
+Generator Loss: 3.3104
+Discriminator A Loss: 0.0058
+Discriminator B Loss: 0.4261
+--------------------------------------------------
+
+Epoch 6
+Training Losses:
+Generator Loss: 2.7503
+Discriminator A Loss: 0.3889
+Discriminator B Loss: 0.3932
+
+Validation Losses:
+Generator Loss: 3.1272
+Discriminator A Loss: 0.0196
+Discriminator B Loss: 0.5383
+--------------------------------------------------
+
+Epoch 7
+Training Losses:
+Generator Loss: 3.1736
+Discriminator A Loss: 0.0418
+Discriminator B Loss: 0.3695
+
+Validation Losses:
+Generator Loss: 3.2577
+Discriminator A Loss: 0.0034
+Discriminator B Loss: 0.3283
+--------------------------------------------------
+
+Epoch 8
+Training Losses:
+Generator Loss: 2.9020
+Discriminator A Loss: 0.3398
+Discriminator B Loss: 0.2339
+
+Validation Losses:
+Generator Loss: 3.6206
+Discriminator A Loss: 0.3808
+Discriminator B Loss: 0.1060
+--------------------------------------------------
+
+Epoch 9
+Training Losses:
+Generator Loss: 3.1389
+Discriminator A Loss: 0.1857
+Discriminator B Loss: 0.2264
+
+Validation Losses:
+Generator Loss: 3.3558
+Discriminator A Loss: 0.0064
+Discriminator B Loss: 0.4557
+--------------------------------------------------
+
+Epoch 10
+Training Losses:
+Generator Loss: 3.1632
+Discriminator A Loss: 0.0641
+Discriminator B Loss: 0.2758
+
+Validation Losses:
+Generator Loss: 3.5195
+Discriminator A Loss: 0.0019
+Discriminator B Loss: 0.0456
+--------------------------------------------------
+
+Epoch 11
+Training Losses:
+Generator Loss: 2.6861
+Discriminator A Loss: 0.4335
+Discriminator B Loss: 0.2256
+
+Validation Losses:
+Generator Loss: 2.8978
+Discriminator A Loss: 0.4265
+Discriminator B Loss: 0.1838
+--------------------------------------------------
+
+Epoch 12
+Training Losses:
+Generator Loss: 3.2471
+Discriminator A Loss: 0.1798
+Discriminator B Loss: 0.1261
+
+Validation Losses:
+Generator Loss: 3.9820
+Discriminator A Loss: 0.0066
+Discriminator B Loss: 0.1021
+--------------------------------------------------
+
+Epoch 13
+Training Losses:
+Generator Loss: 3.0257
+Discriminator A Loss: 0.2099
+Discriminator B Loss: 0.1659
+
+Validation Losses:
+Generator Loss: 3.2551
+Discriminator A Loss: 0.4294
+Discriminator B Loss: 0.5428
+--------------------------------------------------
+
+Epoch 14
+Training Losses:
+Generator Loss: 3.2422
+Discriminator A Loss: 0.1163
+Discriminator B Loss: 0.1592
+
+Validation Losses:
+Generator Loss: 2.8971
+Discriminator A Loss: 0.0122
+Discriminator B Loss: 0.4696
+--------------------------------------------------
+
+Epoch 15
+Training Losses:
+Generator Loss: 3.1366
+Discriminator A Loss: 0.0677
+Discriminator B Loss: 0.2389
+
+Validation Losses:
+Generator Loss: 4.3517
+Discriminator A Loss: 0.0222
+Discriminator B Loss: 0.0882
+--------------------------------------------------
+
+Epoch 16
+Training Losses:
+Generator Loss: 3.3041
+Discriminator A Loss: 0.0994
+Discriminator B Loss: 0.0791
+
+Validation Losses:
+Generator Loss: 2.8613
+Discriminator A Loss: 0.5213
+Discriminator B Loss: 0.0863
+--------------------------------------------------
+
+Epoch 17
+Training Losses:
+Generator Loss: 3.3392
+Discriminator A Loss: 0.0211
+Discriminator B Loss: 0.0772
+
+Validation Losses:
+Generator Loss: 3.1959
+Discriminator A Loss: 0.0260
+Discriminator B Loss: 0.0193
+--------------------------------------------------
+
+Epoch 18
+Training Losses:
+Generator Loss: 3.3063
+Discriminator A Loss: 0.0985
+Discriminator B Loss: 0.0656
+
+Validation Losses:
+Generator Loss: 2.8260
+Discriminator A Loss: 0.4798
+Discriminator B Loss: 0.0116
+--------------------------------------------------
+
+Epoch 19
+Training Losses:
+Generator Loss: 2.6367
+Discriminator A Loss: 0.4750
+Discriminator B Loss: 0.0600
+
+Validation Losses:
+Generator Loss: 2.8162
+Discriminator A Loss: 0.4482
+Discriminator B Loss: 0.0070
+--------------------------------------------------
+
+Epoch 20
+Training Losses:
+Generator Loss: 2.8914
+Discriminator A Loss: 0.1979
+Discriminator B Loss: 0.1915
+
+Validation Losses:
+Generator Loss: 2.4348
+Discriminator A Loss: 0.0558
+Discriminator B Loss: 0.5002
+--------------------------------------------------
+
+Epoch 21
+Training Losses:
+Generator Loss: 2.3822
+Discriminator A Loss: 0.2254
+Discriminator B Loss: 0.4709
+
+Validation Losses:
+Generator Loss: 2.0753
+Discriminator A Loss: 0.4792
+Discriminator B Loss: 0.4353
+--------------------------------------------------
+
+Epoch 22
+Training Losses:
+Generator Loss: 2.6894
+Discriminator A Loss: 0.2851
+Discriminator B Loss: 0.2270
+
+Validation Losses:
+Generator Loss: 3.1883
+Discriminator A Loss: 0.0326
+Discriminator B Loss: 0.0426
+--------------------------------------------------
+
+Epoch 23
+Training Losses:
+Generator Loss: 3.1917
+Discriminator A Loss: 0.0692
+Discriminator B Loss: 0.0828
+
+Validation Losses:
+Generator Loss: 3.3582
+Discriminator A Loss: 0.0088
+Discriminator B Loss: 0.0038
+--------------------------------------------------
+
+Epoch 24
+Training Losses:
+Generator Loss: 3.0398
+Discriminator A Loss: 0.0794
+Discriminator B Loss: 0.1477
+
+Validation Losses:
+Generator Loss: 2.5640
+Discriminator A Loss: 0.0185
+Discriminator B Loss: 0.6006
+--------------------------------------------------
+
+Epoch 25
+Training Losses:
+Generator Loss: 3.1867
+Discriminator A Loss: 0.0615
+Discriminator B Loss: 0.0490
+
+Validation Losses:
+Generator Loss: 3.1768
+Discriminator A Loss: 0.0034
+Discriminator B Loss: 0.1308
+--------------------------------------------------
+
+Epoch 26
+Training Losses:
+Generator Loss: 3.0998
+Discriminator A Loss: 0.1246
+Discriminator B Loss: 0.0450
+
+Validation Losses:
+Generator Loss: 4.0578
+Discriminator A Loss: 0.0895
+Discriminator B Loss: 0.1862
+--------------------------------------------------
+
+Epoch 27
+Training Losses:
+Generator Loss: 2.5781
+Discriminator A Loss: 0.3703
+Discriminator B Loss: 0.1028
+
+Validation Losses:
+Generator Loss: 2.0061
+Discriminator A Loss: 0.4692
+Discriminator B Loss: 0.4124
+--------------------------------------------------
+
+Epoch 28
+Training Losses:
+Generator Loss: 2.0774
+Discriminator A Loss: 0.4316
+Discriminator B Loss: 0.3647
+
+Validation Losses:
+Generator Loss: 2.4386
+Discriminator A Loss: 0.4638
+Discriminator B Loss: 0.0465
+--------------------------------------------------
+
+Epoch 29
+Training Losses:
+Generator Loss: 2.8779
+Discriminator A Loss: 0.2157
+Discriminator B Loss: 0.0308
+
+Validation Losses:
+Generator Loss: 3.2968
+Discriminator A Loss: 0.0083
+Discriminator B Loss: 0.0028
+--------------------------------------------------
+
+Epoch 30
+Training Losses:
+Generator Loss: 3.0708
+Discriminator A Loss: 0.0125
+Discriminator B Loss: 0.0871
+
+Validation Losses:
+Generator Loss: 3.2845
+Discriminator A Loss: 0.0051
+Discriminator B Loss: 0.0130
+--------------------------------------------------
+
+Epoch 31
+Training Losses:
+Generator Loss: 2.4822
+Discriminator A Loss: 0.2016
+Discriminator B Loss: 0.0601
+
+Validation Losses:
+Generator Loss: 1.9555
+Discriminator A Loss: 0.3949
+Discriminator B Loss: 0.1268
+--------------------------------------------------
+
+Epoch 32
+Training Losses:
+Generator Loss: 2.2396
+Discriminator A Loss: 0.2898
+Discriminator B Loss: 0.1247
+
+Validation Losses:
+Generator Loss: 2.3045
+Discriminator A Loss: 0.3796
+Discriminator B Loss: 0.0769
+--------------------------------------------------
+
+Epoch 33
+Training Losses:
+Generator Loss: 2.1288
+Discriminator A Loss: 0.3445
+Discriminator B Loss: 0.1575
+
+Validation Losses:
+Generator Loss: 2.4374
+Discriminator A Loss: 0.3822
+Discriminator B Loss: 0.1700
+--------------------------------------------------
+
+Epoch 34
+Training Losses:
+Generator Loss: 2.1339
+Discriminator A Loss: 0.3277
+Discriminator B Loss: 0.1823
+
+Validation Losses:
+Generator Loss: 1.7835
+Discriminator A Loss: 0.2286
+Discriminator B Loss: 0.3723
+--------------------------------------------------
+
+Epoch 35
+Training Losses:
+Generator Loss: 2.0926
+Discriminator A Loss: 0.3239
+Discriminator B Loss: 0.2148
+
+Validation Losses:
+Generator Loss: 2.4080
+Discriminator A Loss: 0.2072
+Discriminator B Loss: 0.1630
+--------------------------------------------------
+
+Epoch 36
+Training Losses:
+Generator Loss: 2.0954
+Discriminator A Loss: 0.3277
+Discriminator B Loss: 0.2127
+
+Validation Losses:
+Generator Loss: 1.9859
+Discriminator A Loss: 0.4230
+Discriminator B Loss: 0.1998
+--------------------------------------------------
+
+Epoch 37
+Training Losses:
+Generator Loss: 2.1319
+Discriminator A Loss: 0.3034
+Discriminator B Loss: 0.2206
+
+Validation Losses:
+Generator Loss: 1.6494
+Discriminator A Loss: 0.3295
+Discriminator B Loss: 0.2822
+--------------------------------------------------
+
+Epoch 38
+Training Losses:
+Generator Loss: 2.1623
+Discriminator A Loss: 0.2919
+Discriminator B Loss: 0.2148
+
+Validation Losses:
+Generator Loss: 1.7704
+Discriminator A Loss: 0.5439
+Discriminator B Loss: 0.2367
+--------------------------------------------------
+
+Epoch 39
+Training Losses:
+Generator Loss: 2.1846
+Discriminator A Loss: 0.2715
+Discriminator B Loss: 0.2225
+
+Validation Losses:
+Generator Loss: 2.4077
+Discriminator A Loss: 0.1452
+Discriminator B Loss: 0.1818
+--------------------------------------------------
+
+Epoch 40
+Training Losses:
+Generator Loss: 2.2405
+Discriminator A Loss: 0.2575
+Discriminator B Loss: 0.2067
+
+Validation Losses:
+Generator Loss: 2.8669
+Discriminator A Loss: 0.1379
+Discriminator B Loss: 0.1690
+--------------------------------------------------
+
+Epoch 41
+Training Losses:
+Generator Loss: 2.2397
+Discriminator A Loss: 0.2440
+Discriminator B Loss: 0.2211
+
+Validation Losses:
+Generator Loss: 2.0639
+Discriminator A Loss: 0.2099
+Discriminator B Loss: 0.1352
+--------------------------------------------------
+
+Epoch 42
+Training Losses:
+Generator Loss: 2.2785
+Discriminator A Loss: 0.2240
+Discriminator B Loss: 0.2106
+
+Validation Losses:
+Generator Loss: 2.3791
+Discriminator A Loss: 0.2239
+Discriminator B Loss: 0.1414
+--------------------------------------------------
+
+Epoch 43
+Training Losses:
+Generator Loss: 2.3191
+Discriminator A Loss: 0.2071
+Discriminator B Loss: 0.2101
+
+Validation Losses:
+Generator Loss: 2.4365
+Discriminator A Loss: 0.1359
+Discriminator B Loss: 0.1830
+--------------------------------------------------
+
+Epoch 44
+Training Losses:
+Generator Loss: 2.4569
+Discriminator A Loss: 0.1300
+Discriminator B Loss: 0.2059
+
+Validation Losses:
+Generator Loss: 2.9889
+Discriminator A Loss: 0.0195
+Discriminator B Loss: 0.1625
+--------------------------------------------------
+
+Epoch 45
+Training Losses:
+Generator Loss: 2.5330
+Discriminator A Loss: 0.0812
+Discriminator B Loss: 0.1935
+
+Validation Losses:
+Generator Loss: 2.6636
+Discriminator A Loss: 0.0363
+Discriminator B Loss: 0.1705
+--------------------------------------------------
+
+Epoch 46
+Training Losses:
+Generator Loss: 2.4971
+Discriminator A Loss: 0.0972
+Discriminator B Loss: 0.2020
+
+Validation Losses:
+Generator Loss: 2.3312
+Discriminator A Loss: 0.0897
+Discriminator B Loss: 0.3148
+--------------------------------------------------
+
+Epoch 47
+Training Losses:
+Generator Loss: 2.4640
+Discriminator A Loss: 0.1159
+Discriminator B Loss: 0.1966
+
+Validation Losses:
+Generator Loss: 2.4385
+Discriminator A Loss: 0.0631
+Discriminator B Loss: 0.1959
+--------------------------------------------------
+
+Epoch 48
+Training Losses:
+Generator Loss: 2.5448
+Discriminator A Loss: 0.0734
+Discriminator B Loss: 0.1882
+
+Validation Losses:
+Generator Loss: 2.7753
+Discriminator A Loss: 0.0165
+Discriminator B Loss: 0.1475
+--------------------------------------------------
+
+Epoch 49
+Training Losses:
+Generator Loss: 2.6171
+Discriminator A Loss: 0.0518
+Discriminator B Loss: 0.1660
+
+Validation Losses:
+Generator Loss: 2.3500
+Discriminator A Loss: 0.0153
+Discriminator B Loss: 0.3123
+--------------------------------------------------
+
+Epoch 50
+Training Losses:
+Generator Loss: 2.5892
+Discriminator A Loss: 0.0666
+Discriminator B Loss: 0.1590
+
+Validation Losses:
+Generator Loss: 2.2971
+Discriminator A Loss: 0.0283
+Discriminator B Loss: 0.2293
+--------------------------------------------------
+
+Epoch 51
+Training Losses:
+Generator Loss: 2.6694
+Discriminator A Loss: 0.0278
+Discriminator B Loss: 0.1464
+
+Validation Losses:
+Generator Loss: 2.7965
+Discriminator A Loss: 0.0097
+Discriminator B Loss: 0.1103
+--------------------------------------------------
+
+Epoch 52
+Training Losses:
+Generator Loss: 2.6680
+Discriminator A Loss: 0.0291
+Discriminator B Loss: 0.1400
+
+Validation Losses:
+Generator Loss: 2.6296
+Discriminator A Loss: 0.0090
+Discriminator B Loss: 0.1379
+--------------------------------------------------
+
+Epoch 53
+Training Losses:
+Generator Loss: 2.6778
+Discriminator A Loss: 0.0232
+Discriminator B Loss: 0.1326
+
+Validation Losses:
+Generator Loss: 2.3231
+Discriminator A Loss: 0.0060
+Discriminator B Loss: 0.2637
+--------------------------------------------------
+
+Epoch 54
+Training Losses:
+Generator Loss: 2.7222
+Discriminator A Loss: 0.0225
+Discriminator B Loss: 0.1021
+
+Validation Losses:
+Generator Loss: 3.0033
+Discriminator A Loss: 0.0085
+Discriminator B Loss: 0.0356
+--------------------------------------------------
+
+Epoch 55
+Training Losses:
+Generator Loss: 2.7026
+Discriminator A Loss: 0.0291
+Discriminator B Loss: 0.1008
+
+Validation Losses:
+Generator Loss: 2.8666
+Discriminator A Loss: 0.0067
+Discriminator B Loss: 0.0474
+--------------------------------------------------
+
+Epoch 56
+Training Losses:
+Generator Loss: 2.7081
+Discriminator A Loss: 0.0290
+Discriminator B Loss: 0.0916
+
+Validation Losses:
+Generator Loss: 2.9821
+Discriminator A Loss: 0.0052
+Discriminator B Loss: 0.0313
+--------------------------------------------------
+
+Epoch 57
+Training Losses:
+Generator Loss: 2.7080
+Discriminator A Loss: 0.0375
+Discriminator B Loss: 0.0800
+
+Validation Losses:
+Generator Loss: 2.7829
+Discriminator A Loss: 0.0076
+Discriminator B Loss: 0.0788
+--------------------------------------------------
+
+Epoch 58
+Training Losses:
+Generator Loss: 2.6935
+Discriminator A Loss: 0.0309
+Discriminator B Loss: 0.0902
+
+Validation Losses:
+Generator Loss: 2.7721
+Discriminator A Loss: 0.0658
+Discriminator B Loss: 0.1084
+--------------------------------------------------
+
+Epoch 59
+Training Losses:
+Generator Loss: 2.6994
+Discriminator A Loss: 0.0426
+Discriminator B Loss: 0.0747
+
+Validation Losses:
+Generator Loss: 2.7471
+Discriminator A Loss: 0.0077
+Discriminator B Loss: 0.0575
+--------------------------------------------------
+
+Epoch 60
+Training Losses:
+Generator Loss: 2.7407
+Discriminator A Loss: 0.0179
+Discriminator B Loss: 0.0661
+
+Validation Losses:
+Generator Loss: 3.0942
+Discriminator A Loss: 0.0059
+Discriminator B Loss: 0.1414
+--------------------------------------------------
+
+Epoch 61
+Training Losses:
+Generator Loss: 2.0766
+Discriminator A Loss: 0.1112
+Discriminator B Loss: 0.2625
+
+Validation Losses:
+Generator Loss: 1.8036
+Discriminator A Loss: 0.3123
+Discriminator B Loss: 0.2975
+--------------------------------------------------
+
+Epoch 62
+Training Losses:
+Generator Loss: 1.7431
+Discriminator A Loss: 0.3106
+Discriminator B Loss: 0.2876
+
+Validation Losses:
+Generator Loss: 1.7724
+Discriminator A Loss: 0.3603
+Discriminator B Loss: 0.2861
+--------------------------------------------------
+
+Epoch 63
+Training Losses:
+Generator Loss: 1.7313
+Discriminator A Loss: 0.3427
+Discriminator B Loss: 0.2631
+
+Validation Losses:
+Generator Loss: 1.7485
+Discriminator A Loss: 0.3905
+Discriminator B Loss: 0.2638
+--------------------------------------------------
+
+Epoch 64
+Training Losses:
+Generator Loss: 1.7285
+Discriminator A Loss: 0.3580
+Discriminator B Loss: 0.2570
+
+Validation Losses:
+Generator Loss: 1.7678
+Discriminator A Loss: 0.3949
+Discriminator B Loss: 0.2661
+--------------------------------------------------
+
+Epoch 65
+Training Losses:
+Generator Loss: 1.7165
+Discriminator A Loss: 0.3713
+Discriminator B Loss: 0.2612
+
+Validation Losses:
+Generator Loss: 1.8342
+Discriminator A Loss: 0.4011
+Discriminator B Loss: 0.2504
+--------------------------------------------------
+
+Epoch 66
+Training Losses:
+Generator Loss: 1.7052
+Discriminator A Loss: 0.3753
+Discriminator B Loss: 0.2691
+
+Validation Losses:
+Generator Loss: 1.7706
+Discriminator A Loss: 0.3967
+Discriminator B Loss: 0.2684
+--------------------------------------------------
+
+Epoch 67
+Training Losses:
+Generator Loss: 1.7023
+Discriminator A Loss: 0.3761
+Discriminator B Loss: 0.2712
+
+Validation Losses:
+Generator Loss: 1.7176
+Discriminator A Loss: 0.4190
+Discriminator B Loss: 0.2741
+--------------------------------------------------
+
+Epoch 68
+Training Losses:
+Generator Loss: 1.6982
+Discriminator A Loss: 0.3806
+Discriminator B Loss: 0.2681
+
+Validation Losses:
+Generator Loss: 1.8860
+Discriminator A Loss: 0.3515
+Discriminator B Loss: 0.2759
+--------------------------------------------------
+
+Epoch 69
+Training Losses:
+Generator Loss: 1.6989
+Discriminator A Loss: 0.3826
+Discriminator B Loss: 0.2706
+
+Validation Losses:
+Generator Loss: 1.7675
+Discriminator A Loss: 0.4225
+Discriminator B Loss: 0.2698
+--------------------------------------------------
+
+Epoch 70
+Training Losses:
+Generator Loss: 1.7040
+Discriminator A Loss: 0.3798
+Discriminator B Loss: 0.2717
+
+Validation Losses:
+Generator Loss: 1.9490
+Discriminator A Loss: 0.3760
+Discriminator B Loss: 0.2434
+--------------------------------------------------
+
+Epoch 71
+Training Losses:
+Generator Loss: 1.7076
+Discriminator A Loss: 0.3806
+Discriminator B Loss: 0.2688
+
+Validation Losses:
+Generator Loss: 1.7843
+Discriminator A Loss: 0.4262
+Discriminator B Loss: 0.2628
+--------------------------------------------------
+
+Epoch 72
+Training Losses:
+Generator Loss: 1.7112
+Discriminator A Loss: 0.3821
+Discriminator B Loss: 0.2682
+
+Validation Losses:
+Generator Loss: 1.8773
+Discriminator A Loss: 0.4049
+Discriminator B Loss: 0.2329
+--------------------------------------------------
+
+Epoch 73
+Training Losses:
+Generator Loss: 1.7097
+Discriminator A Loss: 0.3804
+Discriminator B Loss: 0.2697
+
+Validation Losses:
+Generator Loss: 1.7508
+Discriminator A Loss: 0.4361
+Discriminator B Loss: 0.2693
+--------------------------------------------------
+
+Epoch 74
+Training Losses:
+Generator Loss: 1.7141
+Discriminator A Loss: 0.3802
+Discriminator B Loss: 0.2670
+
+Validation Losses:
+Generator Loss: 1.7790
+Discriminator A Loss: 0.3966
+Discriminator B Loss: 0.2610
+--------------------------------------------------
+
+Epoch 75
+Training Losses:
+Generator Loss: 1.7151
+Discriminator A Loss: 0.3807
+Discriminator B Loss: 0.2657
+
+Validation Losses:
+Generator Loss: 1.7599
+Discriminator A Loss: 0.4080
+Discriminator B Loss: 0.2639
+--------------------------------------------------
+
+Epoch 76
+Training Losses:
+Generator Loss: 1.7172
+Discriminator A Loss: 0.3832
+Discriminator B Loss: 0.2643
+
+Validation Losses:
+Generator Loss: 1.9242
+Discriminator A Loss: 0.3638
+Discriminator B Loss: 0.2478
+--------------------------------------------------
+
+Epoch 77
+Training Losses:
+Generator Loss: 1.7176
+Discriminator A Loss: 0.3827
+Discriminator B Loss: 0.2676
+
+Validation Losses:
+Generator Loss: 1.8128
+Discriminator A Loss: 0.4372
+Discriminator B Loss: 0.2509
+--------------------------------------------------
+
+Epoch 78
+Training Losses:
+Generator Loss: 1.7130
+Discriminator A Loss: 0.3827
+Discriminator B Loss: 0.2710
+
+Validation Losses:
+Generator Loss: 1.8204
+Discriminator A Loss: 0.4289
+Discriminator B Loss: 0.2489
+--------------------------------------------------
+
+Epoch 79
+Training Losses:
+Generator Loss: 1.7156
+Discriminator A Loss: 0.3791
+Discriminator B Loss: 0.2701
+
+Validation Losses:
+Generator Loss: 1.7697
+Discriminator A Loss: 0.4187
+Discriminator B Loss: 0.2708
+--------------------------------------------------
+
+Epoch 80
+Training Losses:
+Generator Loss: 1.7193
+Discriminator A Loss: 0.3790
+Discriminator B Loss: 0.2688
+
+Validation Losses:
+Generator Loss: 1.8337
+Discriminator A Loss: 0.3827
+Discriminator B Loss: 0.2680
+--------------------------------------------------
+
+Epoch 81
+Training Losses:
+Generator Loss: 1.7163
+Discriminator A Loss: 0.3792
+Discriminator B Loss: 0.2729
+
+Validation Losses:
+Generator Loss: 1.7612
+Discriminator A Loss: 0.4069
+Discriminator B Loss: 0.2697
+--------------------------------------------------
+
+Epoch 82
+Training Losses:
+Generator Loss: 1.7265
+Discriminator A Loss: 0.3740
+Discriminator B Loss: 0.2688
+
+Validation Losses:
+Generator Loss: 1.8974
+Discriminator A Loss: 0.3670
+Discriminator B Loss: 0.2658
+--------------------------------------------------
+
+Epoch 83
+Training Losses:
+Generator Loss: 1.7329
+Discriminator A Loss: 0.3731
+Discriminator B Loss: 0.2688
+
+Validation Losses:
+Generator Loss: 1.9852
+Discriminator A Loss: 0.4327
+Discriminator B Loss: 0.1892
+--------------------------------------------------
+
+Epoch 84
+Training Losses:
+Generator Loss: 1.7183
+Discriminator A Loss: 0.3771
+Discriminator B Loss: 0.2771
+
+Validation Losses:
+Generator Loss: 1.8176
+Discriminator A Loss: 0.4042
+Discriminator B Loss: 0.2571
+--------------------------------------------------
+
+Epoch 85
+Training Losses:
+Generator Loss: 1.7188
+Discriminator A Loss: 0.3714
+Discriminator B Loss: 0.2856
+
+Validation Losses:
+Generator Loss: 1.7580
+Discriminator A Loss: 0.4042
+Discriminator B Loss: 0.2877
+--------------------------------------------------
+
+Epoch 86
+Training Losses:
+Generator Loss: 1.7070
+Discriminator A Loss: 0.3771
+Discriminator B Loss: 0.2897
+
+Validation Losses:
+Generator Loss: 1.9709
+Discriminator A Loss: 0.3107
+Discriminator B Loss: 0.2820
+--------------------------------------------------
+
+Epoch 87
+Training Losses:
+Generator Loss: 1.7283
+Discriminator A Loss: 0.3681
+Discriminator B Loss: 0.2818
+
+Validation Losses:
+Generator Loss: 2.0618
+Discriminator A Loss: 0.3921
+Discriminator B Loss: 0.2117
+--------------------------------------------------
+
+Epoch 88
+Training Losses:
+Generator Loss: 1.7299
+Discriminator A Loss: 0.3731
+Discriminator B Loss: 0.2751
+
+Validation Losses:
+Generator Loss: 1.9621
+Discriminator A Loss: 0.3656
+Discriminator B Loss: 0.2253
+--------------------------------------------------
+
+Epoch 89
+Training Losses:
+Generator Loss: 1.7397
+Discriminator A Loss: 0.3724
+Discriminator B Loss: 0.2679
+
+Validation Losses:
+Generator Loss: 1.8800
+Discriminator A Loss: 0.3342
+Discriminator B Loss: 0.2553
+--------------------------------------------------
+
+Epoch 90
+Training Losses:
+Generator Loss: 1.7354
+Discriminator A Loss: 0.3732
+Discriminator B Loss: 0.2681
+
+Validation Losses:
+Generator Loss: 1.7682
+Discriminator A Loss: 0.3696
+Discriminator B Loss: 0.2785
+--------------------------------------------------
+
+Epoch 91
+Training Losses:
+Generator Loss: 1.6700
+Discriminator A Loss: 0.3973
+Discriminator B Loss: 0.2817
+
+Validation Losses:
+Generator Loss: 1.8017
+Discriminator A Loss: 0.4146
+Discriminator B Loss: 0.2706
+--------------------------------------------------
+
+Epoch 92
+Training Losses:
+Generator Loss: 1.6794
+Discriminator A Loss: 0.3974
+Discriminator B Loss: 0.2812
+
+Validation Losses:
+Generator Loss: 1.8230
+Discriminator A Loss: 0.4148
+Discriminator B Loss: 0.2694
+--------------------------------------------------
+
+Epoch 93
+Training Losses:
+Generator Loss: 1.6813
+Discriminator A Loss: 0.3970
+Discriminator B Loss: 0.2810
+
+Validation Losses:
+Generator Loss: 1.8277
+Discriminator A Loss: 0.4120
+Discriminator B Loss: 0.2684
+--------------------------------------------------
+
+Epoch 94
+Training Losses:
+Generator Loss: 1.6804
+Discriminator A Loss: 0.3972
+Discriminator B Loss: 0.2812
+
+Validation Losses:
+Generator Loss: 1.8093
+Discriminator A Loss: 0.4145
+Discriminator B Loss: 0.2710
+--------------------------------------------------
+
+Epoch 95
+Training Losses:
+Generator Loss: 1.6808
+Discriminator A Loss: 0.3974
+Discriminator B Loss: 0.2811
+
+Validation Losses:
+Generator Loss: 1.8104
+Discriminator A Loss: 0.4157
+Discriminator B Loss: 0.2724
+--------------------------------------------------
+
+Epoch 96
+Training Losses:
+Generator Loss: 1.6804
+Discriminator A Loss: 0.3981
+Discriminator B Loss: 0.2813
+
+Validation Losses:
+Generator Loss: 1.8131
+Discriminator A Loss: 0.4119
+Discriminator B Loss: 0.2716
+--------------------------------------------------
+
+Epoch 97
+Training Losses:
+Generator Loss: 1.6795
+Discriminator A Loss: 0.3984
+Discriminator B Loss: 0.2811
+
+Validation Losses:
+Generator Loss: 1.8149
+Discriminator A Loss: 0.4144
+Discriminator B Loss: 0.2705
+--------------------------------------------------
+
+Epoch 98
+Training Losses:
+Generator Loss: 1.6800
+Discriminator A Loss: 0.3985
+Discriminator B Loss: 0.2811
+
+Validation Losses:
+Generator Loss: 1.8166
+Discriminator A Loss: 0.4129
+Discriminator B Loss: 0.2669
+--------------------------------------------------
+
+Epoch 99
+Training Losses:
+Generator Loss: 1.6789
+Discriminator A Loss: 0.3991
+Discriminator B Loss: 0.2810
+
+Validation Losses:
+Generator Loss: 1.8292
+Discriminator A Loss: 0.4138
+Discriminator B Loss: 0.2717
+--------------------------------------------------
+
+Epoch 100
+Training Losses:
+Generator Loss: 1.6805
+Discriminator A Loss: 0.3990
+Discriminator B Loss: 0.2807
+
+Validation Losses:
+Generator Loss: 1.8420
+Discriminator A Loss: 0.4085
+Discriminator B Loss: 0.2690
+--------------------------------------------------
+
+Epoch 101
+Training Losses:
+Generator Loss: 1.6805
+Discriminator A Loss: 0.3996
+Discriminator B Loss: 0.2805
+
+Validation Losses:
+Generator Loss: 1.8211
+Discriminator A Loss: 0.4096
+Discriminator B Loss: 0.2700
+--------------------------------------------------
+
+Epoch 102
+Training Losses:
+Generator Loss: 1.6795
+Discriminator A Loss: 0.3999
+Discriminator B Loss: 0.2803
+
+Validation Losses:
+Generator Loss: 1.8102
+Discriminator A Loss: 0.4150
+Discriminator B Loss: 0.2697
+--------------------------------------------------
+
+Epoch 103
+Training Losses:
+Generator Loss: 1.6807
+Discriminator A Loss: 0.4001
+Discriminator B Loss: 0.2800
+
+Validation Losses:
+Generator Loss: 1.8130
+Discriminator A Loss: 0.4136
+Discriminator B Loss: 0.2697
+--------------------------------------------------
+
+Epoch 104
+Training Losses:
+Generator Loss: 1.6805
+Discriminator A Loss: 0.4004
+Discriminator B Loss: 0.2796
+
+Validation Losses:
+Generator Loss: 1.8211
+Discriminator A Loss: 0.4132
+Discriminator B Loss: 0.2685
+--------------------------------------------------
+
+Epoch 105
+Training Losses:
+Generator Loss: 1.6808
+Discriminator A Loss: 0.4007
+Discriminator B Loss: 0.2793
+
+Validation Losses:
+Generator Loss: 1.8194
+Discriminator A Loss: 0.4114
+Discriminator B Loss: 0.2685
+--------------------------------------------------
+
+Epoch 106
+Training Losses:
+Generator Loss: 1.6807
+Discriminator A Loss: 0.4010
+Discriminator B Loss: 0.2791
+
+Validation Losses:
+Generator Loss: 1.8180
+Discriminator A Loss: 0.4072
+Discriminator B Loss: 0.2691
+--------------------------------------------------
+
+Epoch 107
+Training Losses:
+Generator Loss: 1.6810
+Discriminator A Loss: 0.4013
+Discriminator B Loss: 0.2792
+
+Validation Losses:
+Generator Loss: 1.8095
+Discriminator A Loss: 0.4172
+Discriminator B Loss: 0.2693
+--------------------------------------------------
+
+Epoch 108
+Training Losses:
+Generator Loss: 1.6811
+Discriminator A Loss: 0.4015
+Discriminator B Loss: 0.2788
+
+Validation Losses:
+Generator Loss: 1.8191
+Discriminator A Loss: 0.4148
+Discriminator B Loss: 0.2686
+--------------------------------------------------
+
+Epoch 109
+Training Losses:
+Generator Loss: 1.6823
+Discriminator A Loss: 0.4018
+Discriminator B Loss: 0.2783
+
+Validation Losses:
+Generator Loss: 1.8239
+Discriminator A Loss: 0.4105
+Discriminator B Loss: 0.2653
+--------------------------------------------------
+
+Epoch 110
+Training Losses:
+Generator Loss: 1.6804
+Discriminator A Loss: 0.4020
+Discriminator B Loss: 0.2783
+
+Validation Losses:
+Generator Loss: 1.8204
+Discriminator A Loss: 0.4098
+Discriminator B Loss: 0.2685
+--------------------------------------------------
+
+Epoch 111
+Training Losses:
+Generator Loss: 1.6826
+Discriminator A Loss: 0.4020
+Discriminator B Loss: 0.2780
+
+Validation Losses:
+Generator Loss: 1.8069
+Discriminator A Loss: 0.4159
+Discriminator B Loss: 0.2690
+--------------------------------------------------
+
+Epoch 112
+Training Losses:
+Generator Loss: 1.6818
+Discriminator A Loss: 0.4026
+Discriminator B Loss: 0.2781
+
+Validation Losses:
+Generator Loss: 1.8068
+Discriminator A Loss: 0.4165
+Discriminator B Loss: 0.2684
+--------------------------------------------------
+
+Epoch 113
+Training Losses:
+Generator Loss: 1.6817
+Discriminator A Loss: 0.4025
+Discriminator B Loss: 0.2780
+
+Validation Losses:
+Generator Loss: 1.8181
+Discriminator A Loss: 0.4167
+Discriminator B Loss: 0.2683
+--------------------------------------------------
+
+Epoch 114
+Training Losses:
+Generator Loss: 1.6827
+Discriminator A Loss: 0.4027
+Discriminator B Loss: 0.2780
+
+Validation Losses:
+Generator Loss: 1.8066
+Discriminator A Loss: 0.4132
+Discriminator B Loss: 0.2667
+--------------------------------------------------
+
+Epoch 115
+Training Losses:
+Generator Loss: 1.6809
+Discriminator A Loss: 0.4028
+Discriminator B Loss: 0.2786
+
+Validation Losses:
+Generator Loss: 1.8204
+Discriminator A Loss: 0.4167
+Discriminator B Loss: 0.2659
+--------------------------------------------------
+
+Epoch 116
+Training Losses:
+Generator Loss: 1.6807
+Discriminator A Loss: 0.4032
+Discriminator B Loss: 0.2787
+
+Validation Losses:
+Generator Loss: 1.8351
+Discriminator A Loss: 0.4170
+Discriminator B Loss: 0.2687
+--------------------------------------------------

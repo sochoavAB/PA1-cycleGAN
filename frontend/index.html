@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesador de Imágenes IA</title>
+    <style>
+        :root {
+            --primary-color: #3b82f6;
+            --success-color: #4ade80;
+            --error-color: #ef4444;
+            --warning-color: #f59e0b;
+            --info-color: #3b82f6;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.5;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .header p {
+            color: #64748b;
+            font-size: 1.1rem;
+        }
+
+        .drop-zone {
+            border: 2px dashed #e2e8f0;
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background-color: white;
+        }
+
+        .drop-zone.dragover {
+            border-color: var(--primary-color);
+            background-color: #f8fafc;
+        }
+
+        .formats-info {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover:not(:disabled) {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+
+        button:disabled {
+            background-color: #cbd5e1;
+            cursor: not-allowed;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .image-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .image-box {
+            background-color: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-box h3 {
+            color: #1e293b;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .placeholder-image {
+            background-color: #f1f5f9;
+            border: 2px dashed #e2e8f0;
+            border-radius: 8px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            background-color: var(--info-color);
+            color: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transform: translateX(150%);
+            transition: transform 0.3s ease-in-out;
+            z-index: 1000;
+        }
+
+        .notification.show {
+            transform: translateX(0);
+        }
+
+        .notification.success { background-color: var(--success-color); }
+        .notification.error { background-color: var(--error-color); }
+        .notification.warning { background-color: var(--warning-color); }
+        .notification.info { background-color: var(--info-color); }
+
+        .file-info {
+            margin: 1rem auto;
+            padding: 0.75rem;
+            background-color: #f8fafc;
+            border-radius: 6px;
+            max-width: 400px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .file-info.show {
+            display: flex;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            color: #64748b;
+            margin: 1rem 0;
+        }
+
+        .loading::after {
+            content: '';
+            animation: dots 1.4s steps(5, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60% { content: '...'; }
+            80% { content: '....'; }
+            100% { content: '.....'; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Procesador de Imágenes IA</h1>
+            <p>Transforma tus imágenes con inteligencia artificial</p>
+        </div>
+
+        <div class="upload-section">
+            <div id="dropZone" class="drop-zone">
+                <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 1rem;">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+                <p>Arrastra tu imagen aquí o</p>
+                <input type="file" id="fileInput" accept="image/png,image/jpeg,image/jpg,image/webp" style="display: none;">
+                <button onclick="document.getElementById('fileInput').click()" style="margin-top: 10px;">
+                    Selecciona un archivo
+                </button>
+            </div>
+
+            <div id="fileInfo" class="file-info">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span id="fileName">Archivo seleccionado</span>
+            </div>
+            
+            <div class="formats-info">Formatos soportados: PNG, JPG, JPEG, WEBP</div>
+            <div style="text-align: center;">
+                <button id="processButton" disabled>Procesar Imagen</button>
+            </div>
+            <div id="loading" class="loading">Procesando imagen</div>
+        </div>
+        
+        <div class="image-container">
+            <div class="image-box">
+                <h3>Imagen Original</h3>
+                <div id="originalPlaceholder" class="placeholder-image">
+                    <span>No hay imagen seleccionada</span>
+                </div>
+                <img id="originalImage" src="" alt="Imagen original" style="display: none;">
+            </div>
+            <div class="image-box">
+                <h3>Imagen Procesada</h3>
+                <div id="processedPlaceholder" class="placeholder-image">
+                    <span>La imagen procesada aparecerá aquí</span>
+                </div>
+                <img id="processedImage" src="" alt="Imagen procesada" style="display: none;">
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span id="notificationText"></span>
+    </div>
+
+    <script>
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const processButton = document.getElementById('processButton');
+        const originalImage = document.getElementById('originalImage');
+        const processedImage = document.getElementById('processedImage');
+        const loading = document.getElementById('loading');
+        const originalPlaceholder = document.getElementById('originalPlaceholder');
+        const processedPlaceholder = document.getElementById('processedPlaceholder');
+        
+        // Prevenir comportamiento por defecto
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+            document.body.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        // Efectos visuales para drag & drop
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, highlight, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, unhighlight, false);
+        });
+
+        function highlight(e) {
+            dropZone.classList.add('dragover');
+        }
+
+        function unhighlight(e) {
+            dropZone.classList.remove('dragover');
+        }
+
+        // Manejar drop
+        dropZone.addEventListener('drop', handleDrop, false);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            handleFiles(dt.files);
+        }
+
+        fileInput.addEventListener('change', function(e) {
+            handleFiles(this.files);
+        });
+
+        function showNotification(message, type = 'info') {
+            const notification = document.getElementById('notification');
+            const notificationText = document.getElementById('notificationText');
+            
+            // Remover clases anteriores
+            notification.classList.remove('success', 'error', 'warning', 'info');
+            // Añadir nueva clase
+            notification.classList.add(type);
+            
+            notificationText.textContent = message;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        function updateFileInfo(file) {
+            const fileInfo = document.getElementById('fileInfo');
+            const fileName = document.getElementById('fileName');
+            
+            fileName.textContent = `Archivo seleccionado: ${file.name}`;
+            fileInfo.classList.add('show');
+        }
+
+        function validateFile(file) {
+            const validTypes = ['image/png', 'image/jpeg', 'image/jpg', 'image/webp'];
+            if (!validTypes.includes(file.type)) {
+                showNotification('Por favor, selecciona una imagen en formato PNG, JPG, JPEG o WEBP', 'error');
+                return false;
+            }
+            return true;
+        }
+
+        function handleFiles(files) {
+            const file = files[0];
+            if (validateFile(file)) {
+                displayImage(file);
+                processButton.disabled = false;
+                showNotification('Imagen cargada correctamente', 'success');
+                updateFileInfo(file);
+            }
+        }
+
+        function displayImage(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                originalImage.src = e.target.result;
+                originalImage.style.display = 'block';
+                originalPlaceholder.style.display = 'none';
+            };
+            reader.readAsDataURL(file);
+        }
+
+        processButton.addEventListener('click', async function() {
+            try {
+                loading.style.display = 'block';
+                processButton.disabled = true;
+                showNotification('Procesando imagen...', 'info');
+                processedPlaceholder.style.display = 'flex';
+                processedImage.style.display = 'none';
+
+                const formData = new FormData();
+                formData.append('image', fileInput.files[0]);
+
+                const response = await fetch('http://localhost:5000/generate', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    throw new Error('Error al procesar la imagen');
+                }
+
+                const blob = await response.blob();
+                processedImage.src = URL.createObjectURL(blob);
+                processedImage.style.display = 'block';
+                processedPlaceholder.style.display = 'none';
+                showNotification('¡Imagen procesada correctamente!', 'success');
+            } catch (error) {
+                showNotification(error.message, 'error');
+                console.error('Error:', error);
+            } finally {
+                loading.style.display = 'none';
+                processButton.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>

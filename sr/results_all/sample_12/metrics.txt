@@ -1,0 +1,6 @@
+Metrics for Sample 12:
+  Input - SSIM: 0.5587, PSNR: 30.42
+  Model - SSIM: 0.6019, PSNR: 30.73
+  Bicubic - SSIM: 0.5587, PSNR: 30.42
+  Lanczos - SSIM: 0.5587, PSNR: 30.42
+  SRCNN - SSIM: 0.0215, PSNR: 29.90
