@@ -1,0 +1,126 @@
+# CycleGAN Image Translation API
+
+A deep learning project that uses CycleGAN architecture for image-to-image translation, with a Flask backend API and web frontend interface.
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
+![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)
+
+## 🌟 Features
+
+- Image-to-image translation using CycleGAN architecture
+- RESTful API built with Flask
+- Web-based user interface for easy image upload and generation
+- Real-time image processing
+- Support for multiple image formats (PNG, JPG, JPEG, WebP)
+- GPU acceleration support (when available)
+
+## 🏗️ Project Structure
+
+```
+project/
+├── backend/
+│   ├── app.py           # Flask API server
+│   ├── training.py      # CycleGAN model training code
+│   └── models/          # Pre-trained model weights
+│       └── A2B/
+│           └── netG_A2B_epoch_100.pth
+├── frontend/           # Web interface files
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.8 or higher
+- PyTorch 2.0 or higher
+- CUDA-capable GPU (optional, but recommended)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/cyclegan-translation.git
+cd cyclegan-translation
+```
+
+2. Install the required Python packages:
+```bash
+pip install -r requirements.txt
+```
+
+3. Download the pre-trained model weights and place them in the `backend/models/A2B/` directory.
+
+### Running the Application
+
+1. Start the Flask backend server:
+```bash
+cd backend
+python app.py
+```
+The server will start on `http://localhost:5000`
+
+2. Launch the frontend application (follow the instructions in the frontend directory)
+
+## 🛠️ API Endpoints
+
+### Generate Image Translation
+- **URL**: `/generate`
+- **Method**: `POST`
+- **Content-Type**: `multipart/form-data`
+- **Parameters**: 
+  - `image`: Image file (PNG, JPG, JPEG, or WebP)
+- **Response**: PNG image file
+
+### Health Check
+- **URL**: `/health`
+- **Method**: `GET`
+- **Response**: JSON object with server status and device information
+
+## 🎯 Model Architecture
+
+The project uses a CycleGAN architecture with the following components:
+
+- **Generator**: ResNet-based architecture with 9 residual blocks
+- **Discriminator**: PatchGAN discriminator
+- **Training**: Adversarial loss + cycle consistency loss
+- **Image Size**: 256x256 pixels
+
+## 🔧 Model Training
+
+To train your own model:
+
+1. Prepare your dataset in the required format:
+```bash
+python training.py
+```
+
+2. The training script will:
+   - Save model checkpoints every 25 epochs
+   - Generate loss plots every 10 epochs
+   - Save training metrics for monitoring
+
+## 📊 Training Metrics
+
+The training process generates:
+- Loss plots for generators and discriminators
+- Training and validation metrics
+- Model checkpoints at regular intervals
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙏 Acknowledgments
+
+- [PyTorch](https://pytorch.org/) team for the deep learning framework
+- [CycleGAN](https://junyanz.github.io/CycleGAN/) paper authors for the original architecture
+
+## ⚠️ Disclaimer
+
+This implementation is for research and educational purposes only. Please ensure you have the right to use and process any images before using this system.
