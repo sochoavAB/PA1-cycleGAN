@@ -41,7 +41,7 @@ project/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cyclegan-translation.git
+git clone https://github.com/sochoavAB/PA1-cycleGAN.git
 cd cyclegan-translation
 ```
 
@@ -117,7 +117,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the CC0 1.0 Universal - see the LICENSE file for details.
 
 
-
-## ⚠️ Disclaimer
-
-This implementation is for research and educational purposes only. Please ensure you have the right to use and process any images before using this system.
